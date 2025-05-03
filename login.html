@@ -90,25 +90,144 @@
     </header>
     <!-- Navigation Section End -->
 
-    <!-- Login Section Start -->
-    <section class="login">
+    <!-- Food Search Section Start -->
+    <section class="food-search text-center" >
         <div class="container">
-            <h2 class="text-center">Login</h2>
-            <div class="heading-border"></div>
-
-            <form action="" class="form">
-                <fieldset>
-                    <legend>Login</legend>
-                    <p class="label">Email</p>
-                    <input type="email" placeholder="Enter your email..." required>
-                    <p class="label">Password</p>
-                    <input type="password" placeholder="Enter your password..." required>
-                    <input type="submit" value="Login" class="btn-primary">
-                </fieldset>
+            <form action="food-search.html">
+                <input type="search" placeholder="Search for food..." required>
+                <input type="submit" value="Search" class="btn-primary">
             </form>
         </div>
     </section>
-    <!-- Login Section End -->
+    <!-- Food Search Section End -->
+
+    <!-- Category Section Start -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Explore Foods</h2>
+            <div class="heading-border"></div>
+
+            <div class="grid-3">
+                <a href="category-foods.html">
+                    <div class="float-container">
+                        <img src="img/category/pizza.jpg" class="img-responsive" alt="">
+                        <h3 class="float-text text-white">Pizza</h3>
+                    </div>
+                </a>
+                <a href="category-foods.html">
+                    <div class="float-container">
+                        <img src="img/category/sandwich.jpg" class="img-responsive" alt="">
+                        <h3 class="float-text text-white">Sandwich</h3>
+                    </div>
+                </a>
+                <a href="category-foods.html">
+                    <div class="float-container">
+                        <img src="img/category/burger.jpg" class="img-responsive" alt="">
+                        <h3 class="float-text text-white">Burger</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Category Section End -->
+
+    <!-- Foods Section Start -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Food Menu</h2>
+            <div class="heading-border"></div>
+            <div class="grid-2">
+                <div class="food-menu-box">
+                    <form action="">
+                        <div class="food-menu-img">
+                            <img src="img/food/p1.jpg" alt="" class="img-responsive img-curve">
+                        </div>
+                        <div class="food-menu-desc">
+                            <h4>Pizza</h4>
+                            <p class="food-price">$8.00</p>
+                            <p class="food-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi porro.</p>
+                            <input type="number" value="1" min="1">
+                            <input type="submit" class="btn-primary" value="Add To Cart">
+                        </div>
+                    </form>
+                </div>
+                <div class="food-menu-box">
+                    <form action="">
+                        <div class="food-menu-img">
+                            <img src="img/food/s1.jpg" alt="" class="img-responsive img-curve">
+                        </div>
+                        <div class="food-menu-desc">
+                            <h4>Sandwich</h4>
+                            <p class="food-price">$8.00</p>
+                            <p class="food-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi porro.</p>
+                            <input type="number" value="1" min="1">
+                            <input type="submit" class="btn-primary" value="Add To Cart">
+                        </div>
+                    </form>
+                </div>
+                <div class="food-menu-box">
+                    <form action="">
+                        <div class="food-menu-img">
+                            <img src="img/food/b1.jpg" alt="" class="img-responsive img-curve">
+                        </div>
+                        <div class="food-menu-desc">
+                            <h4>Burger</h4>
+                            <p class="food-price">$8.00</p>
+                            <p class="food-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi porro.</p>
+                            <input type="number" value="1" min="1">
+                            <input type="submit" class="btn-primary" value="Add To Cart">
+                        </div>
+                    </form>
+                </div>
+                <div class="food-menu-box">
+                    <form action="">
+                        <div class="food-menu-img">
+                            <img src="img/food/p1.jpg" alt="" class="img-responsive img-curve">
+                        </div>
+                        <div class="food-menu-desc">
+                            <h4>Pizza</h4>
+                            <p class="food-price">$8.00</p>
+                            <p class="food-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi porro.</p>
+                            <input type="number" value="1" min="1">
+                            <input type="submit" class="btn-primary" value="Add To Cart">
+                        </div>
+                    </form>
+                </div>
+                <div class="food-menu-box">
+                    <form action="">
+                        <div class="food-menu-img">
+                            <img src="img/food/s1.jpg" alt="" class="img-responsive img-curve">
+                        </div>
+                        <div class="food-menu-desc">
+                            <h4>Sandwich</h4>
+                            <p class="food-price">$8.00</p>
+                            <p class="food-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi porro.</p>
+                            <input type="number" value="1" min="1">
+                            <input type="submit" class="btn-primary" value="Add To Cart">
+                        </div>
+                    </form>
+                </div>
+                <div class="food-menu-box">
+                    <form action="">
+                        <div class="food-menu-img">
+                            <img src="img/food/b1.jpg" alt="" class="img-responsive img-curve">
+                        </div>
+                        <div class="food-menu-desc">
+                            <h4>Burger</h4>
+                            <p class="food-price">$8.00</p>
+                            <p class="food-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi porro.</p>
+                            <input type="number" value="1" min="1">
+                            <input type="submit" class="btn-primary" value="Add To Cart">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <p class="text-center">
+            <a href="foods.html" class="btn-primary">See All Foods</a>
+        </p>
+    </section>
+    <!-- Foods Section End -->
 
     <!-- Footer Section Start -->
     <section class="footer">
@@ -116,7 +235,7 @@
             <div class="grid-3">
                 <div class="text-center">
                     <h3>About Us</h3><br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat officia, temporibus expedita dicta eligendi harum architecto fugiat sint, laudantium omnis animi. Voluptas praesentium maiores minima pariatur necessitatibus consequuntur, similique assumenda.</p>
+                    <p>I'm Ritesh Yadav, a dedicated and curious tech enthusiast with a background in AI and machine learning. I love creating real-world web and software solutions, learning new technologies, and diving into data science. My goal is to make a positive impact through innovation, collaboration, and continuous growth.</p>
                 </div>
                 <div class="texr-center">
                     <h3>Site Map</h3><br>
@@ -132,11 +251,15 @@
                     <h3>Social Links</h3><br>
                     <div class="social">
                         <ul>
-                            <li><a href="#"><img src="https://img.icons8.com/color/48/null/facebook-new.png"/></a></li>
-                            <li><a href="#"><img src="https://img.icons8.com/fluency/48/null/instagram-new.png"/></a></li>
-                            <li><a href="#"><img src="https://img.icons8.com/color/48/null/twitter--v1.png"/></a></li>
-                            <li><a href="#"><img src="https://img.icons8.com/color/48/null/linkedin-circled--v1.png"/></a></li>
-                            <li><a href="#"><img src="https://img.icons8.com/color/48/null/youtube-play.png"/></a></li>
+                            <!-- <li><a href="https://youtube.com/@codearcade-se4rc?si=2vBakC9_9-q3AL0y"><img src="https://img.icons8.com/color/48/null/facebook-new.png"/></a></li> -->
+                            <li><a href="https://www.instagram.com/yaduvnshi.riteshh?igsh=MXR6YnhicGt5ZXdwNQ=="><img src="https://img.icons8.com/fluency/48/null/instagram-new.png"/></a></li>
+                            <li>
+                                <a href="https://github.com/riteshydv123" target="_blank">
+                                  <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub"/>
+                                </a>
+                              </li>
+                            <li><a href="https://www.linkedin.com/in/ritesh-kumar-0b2206272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><img src="https://img.icons8.com/color/48/null/linkedin-circled--v1.png"/></a></li>
+                            <!-- <li><a href="https://youtube.com/@codearcade-se4rc?si=2vBakC9_9-q3AL0y"><img src="https://img.icons8.com/color/48/null/youtube-play.png"/></a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -148,7 +271,7 @@
     <!-- Copyright Section start -->
     <section class="copyright">
         <div class="container text-center">
-            <p>All rights reserved. Design By <a href="#">Code Arcade</a></p>
+            <p>All rights reserved. Design By <a href="#">Ritesh Yadav</a></p>
         </div>
         <a id="back-to-top" class="btn-primary">
             <i class="fa fa-angle-double-up"></i>
